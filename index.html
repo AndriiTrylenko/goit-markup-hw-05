@@ -50,7 +50,7 @@
       <section class="hero">
         <div class="container">
         <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+        <button type="button" class="hero-button" buton-model-open>Замовити послугу</button>
       </div>
       </section>
       <!--Переваги компанії-->
@@ -83,18 +83,21 @@
       <section class="what-wedo">
         <div class="container">
           <h2 class="section-title">Чим займаємось</h2>
-          <ul class="our-work list">
-             <li class="work-item">
+             <ul class="our-work list">
+            <li class="decoration-work">
               <img src="./images/img.jpg" height="294" width="370" alt="Приклад" />
-              </li>
-             <li class="work-item">
+            <P class="name-ourwork">Десктопні додатки</P>  
+            </li>
+             <li class="decoration-work">
               <img src="./images/img1.jpg" height="294" width="370" alt="Приклад" />
-                </li>
-            <li class="work-item">
+            <P class="name-ourwork">Мобільні додатки</P>    
+            </li>
+            <li class="decoration-work">
               <img src="./images/img2.jpg" height="294" width="370" alt="Приклад" />
+            <P class="name-ourwork">Дизайнерскі рішення</P>
             </li>
           </ul>
-        </div>
+          </div>
       </section>
       <!--Наша команда-->
       <section class="section team">
@@ -379,9 +382,16 @@
               </svg></a>
             </li>
         </ul>
-        
       </div>
       </div>      
     </footer>
+        <!--Модaльне вікно-->>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p>ssffffefeefef</p>
+        <button class="button-modal" data-modal-close>Close</button>
+      </div>
+    </div>
+<script src="./js/modal.js"></script>
   </body>
-</html>
+</html> 
