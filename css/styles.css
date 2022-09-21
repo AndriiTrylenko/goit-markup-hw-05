@@ -703,9 +703,6 @@ position: relative;
     color: var(--title-text-color);
 }
 /*--Роботи в портфоліо--*/
-.link-portffolio-website{
-    display: block;
-}
 
 .work {
     gap: 30px;
@@ -752,9 +749,17 @@ position: relative;
     color: var(--primary-text-color);
 } 
 /*--текст над технокряк--*/
+.link-portffolio-website {
+    display: block;
+    
+
+}
+
+
 .text-on-picture {
     position: relative;
     overflow: hidden;
+    
     
 }
 .text-on-picture:hover .position-text {
